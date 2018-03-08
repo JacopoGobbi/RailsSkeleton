@@ -16,6 +16,7 @@ default: &default
   extensions:
     - .vue
     - .js
+    - .js.erb
     - .sass
     - .scss
     - .css

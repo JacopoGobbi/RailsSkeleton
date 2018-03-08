@@ -8,6 +8,9 @@
     "vue-template-compiler": "^2.5.13"
   },
   "devDependencies": {
-    "webpack-dev-server": "^3.1.0"
+    "rails-erb-loader": "^5.4.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-dev-server": "^2.11.1",
+    "webpack-merge": "^4.1.2"
   }
 }
