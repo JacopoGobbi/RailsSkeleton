@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <p>{{ message }}</p>
+      <p>{{ test_name }}</p>
+      <p>{{ test_description }}</p>
   </div>
 </template>
 
@@ -8,7 +9,8 @@
 export default {
   data: function () {
     return {
-      message: "Hello Vue!"
+        test_name: gon.myvar.name,
+        test_description: gon.myvar.description
     }
   }
 }

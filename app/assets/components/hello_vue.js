@@ -12,12 +12,9 @@ Turbolinks.start()
 
 document.addEventListener('turbolinks:load', () => {
     Vue.http.headers.common['X-CSRF-Token'] = document.querySelector('meta[name="csrf-token"]').getAttribute('content')
-    const element = document.getElementById("hello")
+    const element = document.getElementById("test_component")
     const app = new Vue({
         el: element,
-        data: {
-            message: "Can you say hello?"
-        },
         components: { App }
     })
 })

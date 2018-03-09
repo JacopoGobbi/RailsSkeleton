@@ -1,5 +1,6 @@
 class TestController < ApplicationController
   def index
-    @myvar = 'ciao'
+    @myvar = { name: "test", description: "sample back-end data"}
+    gon.myvar = @myvar
   end
 end

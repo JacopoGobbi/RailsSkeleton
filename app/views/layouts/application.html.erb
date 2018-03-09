@@ -4,6 +4,7 @@
     <title>RailsSkeleton</title>
     <%= csrf_meta_tags %>
 
+    <%= Gon::Base.render_data %>
     <%# Webpacker %>
     <%= stylesheet_pack_tag 'hello_vue' %>
     <%= javascript_pack_tag 'hello_vue', 'data-turbolinks-track': 'reload', defer: true %>
