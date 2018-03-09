@@ -3,12 +3,12 @@
   "private": true,
   "dependencies": {
     "@rails/webpacker": "^3.3.0",
+    "rails-erb-loader": "^5.4.1",
     "vue": "^2.5.13",
     "vue-loader": "^14.2.1",
     "vue-template-compiler": "^2.5.13"
   },
   "devDependencies": {
-    "rails-erb-loader": "^5.4.1",
     "webpack-cli": "^2.0.10",
     "webpack-dev-server": "^2.11.1",
     "webpack-merge": "^4.1.2"
